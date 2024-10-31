@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
+
+/.quarto/
+
+data-input/**
+!data-input/.gitkeep
+data-processed/**
+!data-processed/.gitkeep
