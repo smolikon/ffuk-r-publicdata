@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+
+$body-bg: #fff;
+$presentation-heading-color: #00f;
+$body-color: #000;
+$link-color: #42affa;
+$code-color: #000;
+$font-family-sans-serif: "IBM Plex Sans; sans-serif";
+$font-family-mono: "IBM Plex Mono; monospace";
+$code-block-bg: #e3f1ff;
+$code-block-border-color: #00f;
+
+@import url('https://petrbouchal.xyz/fonts/ibm-plex-mono-all-400-700.css');
+@import url('https://petrbouchal.xyz/fonts/ibm-plex-sans-all-400-700.css');
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.v-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%)
+}
